@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Backoffice frontend" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="Backoffice frontend" session_id="docker">
+    <method v="2" />
+  </configuration>
+</component>

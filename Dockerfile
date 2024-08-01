@@ -13,7 +13,7 @@ RUN docker-php-ext-install -j$(nproc) \
         zip \
         pdo_mysql
 
-RUN docker-php-ext-enable amqp apcu opcache
+RUN docker-php-ext-enable amqp apcu opcache xdebug
 
 RUN curl -sS https://get.symfony.com/cli/installer | bash -s - --install-dir /usr/local/bin
 

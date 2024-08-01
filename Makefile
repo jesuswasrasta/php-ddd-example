@@ -36,7 +36,10 @@ destroy:
 	UID=${shell id -u} GID=${shell id -g} docker compose down
 
 rebuild:
-	docker compose build --pull --force-rm --no-cache
+	docker-compose down
+	docker-compose rm
+	docker-compose pull
+	docker-compose build
 	make install
 	make start
 
